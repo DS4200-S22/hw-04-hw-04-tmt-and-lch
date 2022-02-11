@@ -2,6 +2,14 @@ body {
     font-family: Arial;
 }
 
-.my-circ1{
-    
+.my-circ1 {
+    fill: rgb(174, 230, 22);
+}
+
+.my-circ2 {
+    fill: rgb(21, 139, 235);
+}
+
+.my-circ3 {
+    fill:rgb(208, 14, 214)
 }
