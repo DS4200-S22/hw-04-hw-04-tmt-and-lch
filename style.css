@@ -7,6 +7,8 @@ body {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-self: flex-end;
+    align-items: baseline;
+    gap: 50px 40px;
 }
 
 .my-circ1 {
