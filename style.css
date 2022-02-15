@@ -7,17 +7,10 @@ body {
     flex-flow: row;
     justify-content: space-evenly;
     align-items: baseline;
-    /* gap: 10px 20px; */
-}
-.item {
-    border-radius: 50%;
-    border: 6px solid black;
-     
 }
 
 .my-circ1 {
-    fill: rgb(174, 230, 22);
-    
+    fill: rgb(174, 230, 22);  
 }
 
 .my-circ2 {
