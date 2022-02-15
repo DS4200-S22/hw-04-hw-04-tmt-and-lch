@@ -14,3 +14,10 @@ var function_click = function() {
 for (var i = 0 ; i < circleSelector.length; i++){
     circleSelector[i].addEventListener ('click',function_click,false);
 }
+
+
+
+function click_number(number_find) {
+    let number = 0;
+    for (let i = 0; i < number_find.length; i++);
+}
