@@ -10,7 +10,7 @@ body {
 }
 
 #my-circ1 {
-    fill: rgb(174, 230, 22);  
+    fill: rgb(255,255,0);  
 }
 
 #counter {
@@ -18,9 +18,9 @@ body {
 }
 
 #my-circ2 {
-    fill: rgb(21, 139, 235);
+    fill: rgb(124, 193, 238);
 }
 
 #my-circ3 {
-    fill:rgb(208, 14, 214);
+    fill:rgb(235, 142, 204);
 }

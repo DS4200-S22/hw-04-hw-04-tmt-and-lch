@@ -29,7 +29,29 @@ circle.addEventListener('click', countNumber);
 //     element.style.borderStyle = style;
 //   }
 
+let circle = svg.append('my-circ2')
+    .attr(cx,'200')
+    .attr(cy,'200')
+    .attr(r,'150')
+    .attr('fill', '124, 193, 238')
+    .on('mouseover',mouseOver)
+    .on('mouseout',mouseOut)
+    // .on('dblclick',dblClick)
+
+function mouseOver() {
+    d3.select(this).attr('stroke','black').attr('stroke-width',3);
+}
+function mouseOut(){
+    d3.select(this).attr('stroke',null);
+}
+
+
+
 
 document.getElementById("my-circ3").onclick = function(){
     document.getElementById("my-circ3").style.display = "none";
 }
+
+// document.getElementById("my-circ3").onclick =function() {
+//     document.getElementById("my-circ3").style.display = "run-in";
+// }
