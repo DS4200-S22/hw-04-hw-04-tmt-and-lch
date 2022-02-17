@@ -19,9 +19,16 @@ body {
 
 #my-circ2 {
     fill: rgb(124, 193, 238);
-}
-
+}  
 
 #my-circ3 {
     fill:rgb(235, 142, 204);
+}
+
+.opacity{
+    opacity: 1;
+}
+
+.opacity_1{
+    opacity: 0;
 }

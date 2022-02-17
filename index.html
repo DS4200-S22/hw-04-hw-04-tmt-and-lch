@@ -5,6 +5,14 @@
     <meta charset=utf-8/>
     <title>hw-04</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    .hiddenCircle {
+        background: lightblue;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+}
+    </style>
 </head>
 
 
@@ -12,31 +20,19 @@
     <h1><center>Event Handling</center></h1>
 
     <div class="container">
-        <div class="item">
-            <svg width="200" height="200" viewbox="0 0 400 400" >
-                <circle id="my-circ1"  cx="200" cy="200" r="150" stroke="black" stroke-width="13"/>
-                <text id = "counter" x="190" y = "210" fill = "black" font-size = "2em"></text>
-            </svg>
-        </div>
+        <svg width="200" height="200" viewbox="0 0 400 400" >
+            <circle id="my-circ1"  cx="200" cy="200" r="150" stroke="black" stroke-width="13"/>
+            <text id = "counter" x="190" y = "210" fill = "black" font-size = "2em"></text>
+         </svg>
+
+         <svg width="200" height="200" viewbox="0 0 400 400">
+            <circle id="my-circ2" cx="200" cy="200" r="150"/>
+        </svg>
+
+        <svg width="200" height="200" viewbox="0 0 400 400">
+            <circle id="my-circ3"  class = "opacity" cx="200" cy="200" r="150" stroke="black" stroke-width="13"  />
+         </svg>
         
-        <div class="item1">
-            <svg width="200" height="200" viewbox="0 0 400 400">
-                <circle id="my-circ2" cx="200" cy="200" r="150"/>
-                <!-- <div onmouseover="this.style.borderStyle='solid';"
-                onmouseout="this.style.borderStyle='none';"
-                style="border: 1px solid black;"> -->
-            <!-- </div> -->
-            </svg>
-        </div>
-
-        <div class="item2">
-            <svg width="200" height="200" viewbox="0 0 400 400">
-                <circle id="my-circ3" cx="200" cy="200" r="150" stroke="black" stroke-width="13" />
-            </svg>
-        </div>
-        
-
-
     </div>
 
 
