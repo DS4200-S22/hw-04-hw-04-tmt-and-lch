@@ -30,5 +30,5 @@ function circle3Click(){
         document.getElementById("my-circ3").setAttribute("class","opacity");
     }
 }
-const circle4 = document.getElementById("my-circ3");
-circle4.addEventListener("click",circle3Click);
+const circle3 = document.getElementById("my-circ3");
+circle3.addEventListener("click",circle3Click);
